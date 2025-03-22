@@ -1,4 +1,5 @@
-# ![image](https://github.com/user-attachments/assets/4c5ef837-c947-4688-8983-75180c1916f0)# LLM-Game
+# LLM-Game
+# ![image](https://github.com/user-attachments/assets/4c5ef837-c947-4688-8983-75180c1916f0)
 
 <img src="https://feit-teaching.atlassian.net/53302c67-5390-4ce1-b43d-ba19cf4fa9a7#media-blob-url=true&id=d8f0f2e8-68bb-4ca1-acb2-3652051d9ad9&collection=contentId-4229012&contextId=4229012&width=2316&height=2628&alt=te_claire_img%20copy.jpg">
 
