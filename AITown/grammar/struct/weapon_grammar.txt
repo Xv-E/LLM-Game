@@ -1,0 +1,31 @@
+interface Weapon {
+    name: string,
+    type: string,
+    rarity: rarity,
+    base_damage: number,
+    element: element,
+    description: string,
+    effect: effect,
+}
+
+interface effect {
+    name: string,
+    chance: number,
+    duration: number,
+    description: string,
+}
+
+enum element {
+  None = "None",
+  fire = "fire",
+  ice  = "ice",
+  light = "light",
+  dark = "dark",
+}
+
+enum rarity {
+  common = "common",
+  rare = "rare",
+  epic = "epic",
+  Legendary = 'Legendary',
+}

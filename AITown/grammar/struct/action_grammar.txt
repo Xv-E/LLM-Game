@@ -1,0 +1,13 @@
+interface Action {
+    action: ActionType,
+    kwargs: string
+}
+
+
+enum ActionType {
+  wait = "wait",
+  move = "move",
+  attack = "attack",
+  pick_up = "pick_up",
+  use_item = 'use_item',
+}

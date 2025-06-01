@@ -1,0 +1,13 @@
+root ::= Weapon
+rarity ::= "\"common\"" | "\"rare\"" | "\"epic\"" | "'Legendary'"
+element ::= "\"None\"" | "\"fire\"" | "\"ice\"" | "\"light\"" | "\"dark\""
+effect ::= "{"   ws   "\"name\":"   ws   string   ","   ws   "\"chance\":"   ws   number   ","   ws   "\"duration\":"   ws   number   ","   ws   "\"description\":"   ws   string   "}"
+effectlist ::= "[]" | "["   ws   effect   (","   ws   effect)*   "]"
+Weapon ::= "{"   ws   "\"name\":"   ws   string   ","   ws   "\"type\":"   ws   string   ","   ws   "\"rarity\":"   ws   rarity   ","   ws   "\"base_damage\":"   ws   number   ","   ws   "\"element\":"   ws   element   ","   ws   "\"description\":"   ws   string   ","   ws   "\"effect\":"   ws   effect   "}"
+Weaponlist ::= "[]" | "["   ws   Weapon   (","   ws   Weapon)*   "]"
+string ::= "\""   ([^"]*)   "\""
+boolean ::= "true" | "false"
+ws ::= [ \t\n]*
+number ::= [0-9]+   "."?   [0-9]*
+stringlist ::= "["   ws   "]" | "["   ws   string   (","   ws   string)*   ws   "]"
+numberlist ::= "["   ws   "]" | "["   ws   string   (","   ws   number)*   ws   "]"
